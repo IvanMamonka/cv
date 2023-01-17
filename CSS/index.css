@@ -1,0 +1,42 @@
+body {
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid black; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5%;
+    background-image:url("../images/fon.jpeg") ;
+    background-size: no-repeat;
+    background-size: cover;
+
+
+}
+
+header { width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.myPhoto {width: 20%;
+    transition: 1s;
+}
+
+.myPhoto:hover {
+transform: scale(1.2);}
+
+main {display: flex;}
+
+h1, h2, p {margin: 0 0 0 10px;
+text-align: center;
+line-height: 1.4;
+margin-top: 5%;}
+
+
+.persData {width: 40%;
+}
+
+section{display: flex;
+justify-content: center;
+margin-top: 5%;}
+
+#img1 {width: 30%;}
